@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("info")
     public String info() {
-        return "hello world1";
+        return "hello world";
     }
     @RequestMapping("info1")
     public String info1() {
@@ -20,9 +20,5 @@ public class HelloController {
     @RequestMapping("info3")
     public String info3() {
         return "333336";
-    }
-    @RequestMapping("info5")
-    public String info5() {
-        return "fenxianxian info5";
     }
 }
