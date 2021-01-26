@@ -29,4 +29,8 @@ public class HelloController {
     public String info4() {
         return "info4";
     }
+     @RequestMapping("info8")
+    public String info8() {
+        return "info8";
+    }
 }
