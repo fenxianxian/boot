@@ -33,8 +33,8 @@ public class HelloController {
     public String info6() {
         return "info6";
     }
-    @RequestMapping("info8")
-    public String info8() {
-        return "info8";
+    @RequestMapping("info7")
+    public String info7() {
+        return "info7";
     }
 }
