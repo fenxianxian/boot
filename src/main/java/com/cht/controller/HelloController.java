@@ -19,6 +19,6 @@ public class HelloController {
     }
     @RequestMapping("info3")
     public String info3() {
-        return "33333";
+        return "333336";
     }
 }
