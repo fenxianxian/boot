@@ -9,4 +9,12 @@ public class HelloController {
     public String info() {
         return "hello world";
     }
+    @RequestMapping("info1")
+    public String info1() {
+        return "9999";
+    }
+    @RequestMapping("info2")
+    public String info2() {
+        return "22222";
+    }
 }
